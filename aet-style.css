@@ -1,0 +1,111 @@
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family:'Rubik',sans-serif;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+
+body{
+    position:absolute;
+    background-color:rgb(5, 75, 14);
+    background-image:url("./images/squares.png");
+    background-position-x:bottom;
+    background-size:cover;
+    background-repeat: repeat;
+    color:black;
+    margin: 0 0;
+    overflow-x:hidden;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main{
+    background-color:white;
+    /*background-image:url("./images/body-bgs/body-bg1.png");*/
+    background-position-x:bottom;
+    background-size:cover;
+    background-repeat: repeat;
+    color:black;
+    border-radius:9px;
+    max-width:825px;
+    min-width:825px;
+    
+    /*margin: 0 0;
+    overflow-x:hidden;
+    display:flex;
+    flex-direction:column;
+    justify-content:left;
+    align-items:center;*/
+}
+
+h1{
+    font-size: 21px;
+    font-family:'Rubik',sans-serif;
+    margin-top:20px;
+    margin-bottom:9px;
+}
+
+p{
+    font-family:'Rubik',sans-serif;
+    font-size:18px;
+    margin-top:4px;
+    margin-bottom:4px;
+}
+
+/* css for main site components */
+
+#title-bar{ 
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+#main-bar{
+    display:flex;
+    flex-direction:column;
+    justify-content:top;
+    max-width:76vw;
+    min-height:56vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#title-logo{
+    transform:scale(0.9);
+    max-width:300px;
+    margin-top:2%;
+}

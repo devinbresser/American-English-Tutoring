@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>American English Tutoring</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./aet-style.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./images/favicon-16x16.png" sizes="16x16" />
+    <script src="./aet-script.js"></script>
+</head>
+
+<body>
+   
+<div id="empty-banner" style="min-height:15px"></div>
+
+<div id="main">
+
+    <div id="title-bar"> 
+        <div class="tab">
+        </div> 
+          
+        <img id="title-logo" src="./images/aet-logo.png" alt="American English Tutoring Logo">
+      <!-- Tab links -->
+      <div class="tab">
+        <button class="tablinks", id="defaultOpen", onclick="openTab(event, 'About')">About</button>
+        <button class="tablinks" onclick="openTab(event, 'Services')">Services</button>
+        <button class="tablinks" onclick="openTab(event, 'Testimonials')">Testimonials</button>
+        <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+      </div>
+    </div>
+
+  <!-- Tab content -->
+  <div id="About" class="tabcontent">
+    <div id="main-bar">
+      <div id="About">
+        <h1>Welcome to American English Tutoring with Linda</h1>
+        <p>Hi, I'm Linda! My passion is teaching English! An American, I have lived in many countries teaching ESL. Now in the USA, I am a certified teacher with a Master's Degree in Teaching English. I'm also TESOL certified. My goal is to help you become a fluent American English speaker! I also love yoga, walking with my dogs, reading, and gardening.
+
+        </p>
+      </div> 
+    </div>
+  </div>
+
+  <div id="Services" class="tabcontent">
+    <div id="main-bar">
+      <div id="Services">
+        <h1>Services and rates available</h1>
+        <p>I offer all levels of American English lessons from beginner to advanced conversation classes. Lessons are custom designed to meet you where you are and to help you achieve your English language goals. All areas of language learning are addressed: listening, speaking, reading, and writing. New vocabulary is introduced in each lesson.
+        </p>
+      </div> 
+    </div>
+  </div>
+
+  <div id="Testimonials" class="tabcontent">
+    <div id="main-bar">
+      <div id="Testimonials">
+        <h1>What other students have said</h1>
+        <p>Testimonials
+        </p>
+      </div> 
+    </div>
+  </div>
+ 
+  <div id="Contact" class="tabcontent">
+    <div id="main-bar">
+      <div id="Contact">
+        <h1>Would you like to set up a lesson? Contact me!</h1>
+        <p>Contact links 
+        </p>
+      </div> 
+    </div>
+  </div>
+    
+</div>
+
+<script>
+  document.getElementById('defaultOpen').click();
+</script>
+
+</body>
+</html>
